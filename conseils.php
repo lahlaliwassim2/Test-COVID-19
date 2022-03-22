@@ -60,6 +60,9 @@ include('components/head.php')
                  </div>
             </div>
         </section>
+        <?php
+        include('components/footer.php')
+        ?>
 </body>
 </html>
 
