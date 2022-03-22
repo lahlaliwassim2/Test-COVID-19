@@ -1,6 +1,46 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
+}
+.w-img{
+    width: auto;
+    height: 20vh;
+    margin-bottom: 25px;
+}
+.w-card{
+    text-align: center;
+    padding: 30px;
+}
+.w-para{
+    color: #1A519E;
+    font: Bold 21px/39px Cairo;
+}
+#infor{
+    width: 100%;
+    background-color: #D0E5F0;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+.w-h{
+    color: #1078AD;
+    font: Bold 40px/75px Cairo;
+    
+}
+.w-h1{
+    text-align: center;
+    font: Bold 35px/39px Cairo;
+    letter-spacing: 0;
+    line-height: normal;
+    color: #1078AD;
+    margin-bottom: 40px;
+}
+.w-h5{
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1078AD;
+    line-height: 35px;
 }
 .bg-header{
     background-image: url(../assets/img/bg-header.svg);
