@@ -4,12 +4,11 @@
 <?php
 include('components/head.php');
 ?>
-
 <body>
     <?php
     include('components/header.php');
     ?>
-    <div class="bg-warning text-center">
+    <div class="bg-warning text-center mt-3 p-3">
         <p class="fw-bold h4">LA DERNIÈRE INFO MÉDICALE</p>
         <p class="text-primary">
             La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur
@@ -17,7 +16,7 @@ include('components/head.php');
             N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.
         </p>
     </div>
-    <div class="d-flex flex-column flex-md-row flex-revers flex-md-row-reverse">
+    <div class="d-flex flex-column flex-md-row flex-revers flex-md-row-reverse mt-3">
         <div class="col-12 col-md-6 text-center">
             <img src="assets/img/doctor.png" class="w-75" alt="doctors">
         </div>
@@ -34,8 +33,10 @@ include('components/head.php');
             <div class="btn btn-primary w-75">Demarer le test</div>
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <?php
+    include('components/footer.php');
+    ?>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
 </body>
 

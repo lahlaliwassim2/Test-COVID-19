@@ -1,4 +1,10 @@
-<<<<<<< HEAD
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
 .w-img{
     width: auto;
     height: 20vh;
@@ -38,14 +44,19 @@
     color: #1078AD;
     line-height: 35px;
 }
-=======
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*{
-    font-family: 'Poppins', sans-serif;
-}
+
+
 .bg-header{
     background-image: url(../assets/img/bg-header.svg);
 }
+
+.bg-header{
+    background-image: url(../assets/img/bg-header.svg);
+}
+.Questions{
+    height: 400px;
+}
+
 .langue{
     font-size: 15px;
 }
@@ -57,9 +68,11 @@
     height: 20px;
     width: 20px;
 }
+
 .progress{
     height: 10px !important;
 }
+
 nav .nav-link{
     font-size: 17px;
     font-weight: bold;
@@ -71,6 +84,34 @@ nav .nav-link:hover{
     width: 50vw;
 }
 
+.DemarrerBg{
+    background-color: #96C5DC;
+}
+.ConsAcc{
+    text-decoration: none;
+    ;
+}
+.contact{
+    color: rgb(0, 172, 0);
+}
+.line{
+    width: 200px;
+    color: #054464;
+}
+.reponse .check{
+    border-radius: 4px;
+    border: 2px solid #1078AD;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.active-check{
+    color:#F4CF1B ;
+    background-color: #1078AD;
+    transition: ease-in-out .3s;
+}
+
+
 .phoneNum{
     color: green;
 }
@@ -78,4 +119,4 @@ nav .nav-link:hover{
     background-color: #1078AD;
     height: 20px;
 }
->>>>>>> main
+
