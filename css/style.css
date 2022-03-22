@@ -26,3 +26,6 @@ nav .nav-link{
 nav .nav-link:hover{
     color: #054464 !important;
 }
+.error404 {
+    width: 50vw;
+}
