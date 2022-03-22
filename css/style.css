@@ -102,7 +102,10 @@ nav .nav-link:hover{
 }
 .footer-line{
     background-color: #1078AD;
-    height: 20px;
+    height: 40px;
+}
+.w-h4{
+    color: #1078AD;
 }
 
 
