@@ -20,6 +20,7 @@
                 </div>
             </div>
 
+
             <div class="Questions d-flex flex-column gap-5 bg-light">
                     <div class="progress">
                         <div class="progress-bar btn-primary">
@@ -27,43 +28,40 @@
                         </div>
                     </div>
                 <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false">
-                    <div class="carousel-inner">
-            
-                    <div class="Q-1 carousel-item active  px-5 py-3">
-                        <p class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</p>
-                        <div class="reponse">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">
-                                  OUI
-                                </label>
+                        <div class="carousel-inner">
+                
+                            <!-- Question 1 -->
+                            <div class="Q-1 carousel-item active px-5 py-3">
+                                <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                                <div class="reponse d-flex justify-content-center mt-5">
+                                    <div class="form-check d-flex gap-5">
+                                        <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                        <i class="fas fa-check"></i>
+                                        <span>oui</span>
+                                        </div>
+                                        <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                        <i class="fas fa-times"></i>
+                                        <span>non</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                <label class="form-check-label" for="flexRadioDefault2">
-                                  NON
-                                </label>
-                            </div>
+
+                            <!-- Question 2 -->
+                            
+                        
+                        
                         </div>
-                    </div>
-            
-                    <div class=" Q-2 carousel-item px-5 py-3">
-                        <p class="text-center">Quelle est votre température corporelle ?</p>
-                        <div class="reponse">
-                            <input type="number" name="" id="" placeholder="34:39">
-                        </div>
-    
-                    </div>
-                    
-                    </div>
             
                 </div>
                 <div class="button d-flex justify-content-between px-3 pb-3">
                     <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        preview
+                        Précedent
                     </button>
                     <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        next
+                        Suivant
                     </button>
                 </div>
             </div>
