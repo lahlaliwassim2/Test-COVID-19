@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
     <div class="bg-warning text-center">
         <p class="fw-bold h4">LA DERNIÈRE INFO MÉDICALE</p>
