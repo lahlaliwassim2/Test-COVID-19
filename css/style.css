@@ -29,3 +29,11 @@ nav .nav-link:hover{
 .error404 {
     width: 50vw;
 }
+
+.phoneNum{
+    color: green;
+}
+.footer-line{
+    background-color: #1078AD;
+    height: 20px;
+}
