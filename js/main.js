@@ -19,3 +19,24 @@ document.querySelector(".btn-prv").addEventListener("click",()=>{
     }
 })
 //---------------------------------- functions for progress -----------------------------
+
+//---------------------------------- functions for check button -----------------------------
+let btnCheck = document.querySelectorAll(".check");
+
+btnCheck.forEach(btn => {
+    btn.addEventListener("click",()=>{
+        if(document.querySelector(".oui").className.includes("active-check")){
+            document.querySelector(".oui").classList.remove("active-check");
+            document.querySelector(".non").classList.add("active-check");
+        }
+        else if(document.querySelector(".non").className.includes("active-check")){
+            document.querySelector(".non").classList.remove("active-check");
+            document.querySelector(".oui").classList.add("active-check");
+        }
+        else{
+            btn.classList.add("active-check");
+        }
+    })
+});
+
+//---------------------------------- functions for check button -----------------------------

@@ -5,6 +5,9 @@
 .bg-header{
     background-image: url(../assets/img/bg-header.svg);
 }
+.Questions{
+    height: 400px;
+}
 .langue{
     font-size: 15px;
 }
@@ -16,9 +19,7 @@
     height: 20px;
     width: 20px;
 }
-.progress{
-    height: 10px !important;
-}
+
 nav .nav-link{
     font-size: 17px;
     font-weight: bold;
@@ -28,4 +29,16 @@ nav .nav-link:hover{
 }
 .error404 {
     width: 50vw;
+}
+.reponse .check{
+    border-radius: 4px;
+    border: 2px solid #1078AD;
+    width: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.active-check{
+    color:#F4CF1B ;
+    background-color: #1078AD;
+    transition: ease-in-out .3s;
 }
