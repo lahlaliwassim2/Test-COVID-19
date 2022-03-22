@@ -6,7 +6,7 @@
 
     <?php include './components/header.php'; ?>
     <div class="container-fluid">
-        <div class="error_area d-flex flex-column align-items-center">
+        <div class="error_area d-flex mt-5 flex-column align-items-center">
             <img class="error404 w-50" src="assets/img/error404.svg" alt="" />
             <h3 class="text-primary mt-4 mb-2">Tu Es Perdu</h3>
             <a href="index.html">
@@ -15,8 +15,8 @@
                 </button></a>
             <img class="mb-3" src="assets/img/ministre.svg" alt="" />
         </div>
-        <div class="row mt-5">
-            <div class="col-2 mt-3 ga">
+        <div class="row mt-3 d-flex justify-content-center">
+            <div class="col-12 col-md-2 mt-3 d-flex justify-content-center">
                 <ul>
                     <a class="text-black fw-bold text-decoration-none list-unstyled" href="index.html">
                         <li>Accueil</li>
@@ -26,14 +26,14 @@
                     </a>
                 </ul>
             </div>
-            <div class="col-5 d-flex gap-1 align-items-center flex-column">
+            <div class="col-12 col-md-5  mt-3 d-flex gap-1 align-items-center flex-column">
                 <h5 class="fw-bold text-primary">Contacts utiles</h5>
                 <h6>Chiffre économique "Alo épidémie vigilance"</h6>
-                <h5 class="phoneNum">080 100 47 47</h5>
+                <h5 class="phoneNum fw-bold">080 100 47 47</h5>
                 <h6>Aide médicale urgente</h6>
-                <h5 class="phoneNum">114</h5>
+                <h5 class="phoneNum fw-bold">114</h5>
             </div>
-            <div class="col-5">
+            <div class="mt-3 col-12 col-md-5  d-flex">
                 <p>
                     Algorithme d'orientation mis à jour sur les recommandations en
                     vigueur au 22/03/2020 à 16h15. Ce site d’information n’est pas un
