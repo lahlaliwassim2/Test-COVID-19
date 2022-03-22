@@ -7,7 +7,7 @@ document.querySelector(".btn-next").addEventListener("click",()=>{
         prog += 4.55;
         nbrQues++;
         document.querySelector(".progress-bar").style.width = prog+"%";
-        document.querySelector(".nbr-Q").innerHTML = parseInt(nbrQues *100/23) +"%";
+        document.querySelector(".nbr-Q").innerHTML = nbrQues +"/23";
     }
 })
 document.querySelector(".btn-prv").addEventListener("click",()=>{
@@ -15,7 +15,7 @@ document.querySelector(".btn-prv").addEventListener("click",()=>{
         prog -= 4.55;
         nbrQues--;
         document.querySelector(".progress-bar").style.width = prog+"%";
-        document.querySelector(".nbr-Q").innerHTML = parseInt(nbrQues *100/23)+"%";
+        document.querySelector(".nbr-Q").innerHTML = nbrQues+"/23";
     }
 })
 //---------------------------------- functions for progress -----------------------------
