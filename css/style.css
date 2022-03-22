@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .w-img{
     width: auto;
     height: 20vh;
@@ -36,4 +41,39 @@
     letter-spacing: 0;
     color: #1078AD;
     line-height: 35px;
+}
+.bg-header{
+    background-image: url(../assets/img/bg-header.svg);
+}
+.langue{
+    font-size: 15px;
+}
+.btn-primary{
+    background-color: #1078AD !important;
+}
+.circle{
+    background-color:#1078AD;
+    height: 20px;
+    width: 20px;
+}
+.progress{
+    height: 10px !important;
+}
+nav .nav-link{
+    font-size: 17px;
+    font-weight: bold;
+}
+nav .nav-link:hover{
+    color: #054464 !important;
+}
+.error404 {
+    width: 50vw;
+}
+
+.phoneNum{
+    color: green;
+}
+.footer-line{
+    background-color: #1078AD;
+    height: 20px;
 }
