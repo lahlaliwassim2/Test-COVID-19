@@ -70,6 +70,20 @@ nav .nav-link:hover{
 .error404 {
     width: 50vw;
 }
+.DemarrerBg{
+    background-color: #96C5DC;
+}
+.ConsAcc{
+    text-decoration: none;
+    ;
+}
+.contact{
+    color: rgb(0, 172, 0);
+}
+.line{
+    width: 200px;
+    color: #054464;
+}
 .reponse .check{
     border-radius: 4px;
     border: 2px solid #1078AD;
@@ -91,3 +105,5 @@ nav .nav-link:hover{
     background-color: #1078AD;
     height: 20px;
 }
+
+

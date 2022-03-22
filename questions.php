@@ -1,29 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include './components/head.php'; ?>
+
 <body>
-    
-<?php include './components/header.php'; ?>
-        <main class="container w-75">
-            <div class="stiper d-flex justify-content-around my-3">
-                <div class="Info d-flex flex-column align-items-center">
-                    <span class=" circle rounded-circle"></span>
-                    <p>Informations</p>
-                </div>
-                <div class="Ques d-flex flex-column align-items-center">
-                    <span class=" circle rounded-circle"></span>
-                    <p>Questionnaire</p>
-                </div>
-                <div class="Res d-flex flex-column align-items-center">
-                    <span class=" circle rounded-circle"></span>
-                    <p>Résulats</p>
-                </div>
+
+    <?php include './components/header.php'; ?>
+    <main class="container w-75">
+        <div class="stiper d-flex justify-content-around my-3">
+            <div class="Info d-flex flex-column align-items-center">
+                <span class=" circle rounded-circle"></span>
+                <p>Informations</p>
             </div>
+            <div class="Ques d-flex flex-column align-items-center">
+                <span class=" circle rounded-circle"></span>
+                <p>Questionnaire</p>
+            </div>
+<<<<<<< HEAD
             <div class="progress">
                     <div class="progress-bar btn-primary">
                         <span class="nbr-Q"></span>
                     </div>
                 </div>
+=======
+            <div class="Res d-flex flex-column align-items-center">
+                <span class=" circle rounded-circle"></span>
+                <p>Résulats</p>
+            </div>
+        </div>
+>>>>>>> main
 
             <div class="Questions pt-5 bg-light">
                 <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false">
@@ -468,10 +472,25 @@
                         Suivant
                     </button>
                 </div>
+
             </div>
+            <div class="button d-flex justify-content-between px-3 pb-3">
+                <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    Précedent
+                </button>
+                <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    Suivant
+                </button>
             </div>
-        </main>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="./js/main.js"></script>
+        </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>
