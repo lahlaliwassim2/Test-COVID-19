@@ -4,12 +4,11 @@
 <?php
 include('components/head.php');
 ?>
-
 <body>
     <?php
     include('components/header.php');
     ?>
-    <div class="bg-warning text-center">
+    <div class="bg-warning text-center mt-3 p-3">
         <p class="fw-bold h4">LA DERNIÈRE INFO MÉDICALE</p>
         <p class="text-primary">
             La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur
@@ -17,7 +16,7 @@ include('components/head.php');
             N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.
         </p>
     </div>
-    <div class="d-flex flex-column flex-md-row flex-revers flex-md-row-reverse">
+    <div class="d-flex flex-column flex-md-row flex-revers flex-md-row-reverse mt-3">
         <div class="col-12 col-md-6 text-center">
             <img src="assets/img/doctor.png" class="w-75" alt="doctors">
         </div>

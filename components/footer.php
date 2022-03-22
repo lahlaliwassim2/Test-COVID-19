@@ -42,7 +42,7 @@
         </div>
     </div>
     <div class="text-center p-4 DemarrerBg">
-        <p class="h3">Vous pensez avoir été exposé au Coronavirus COVID-19 et vous avez des symptômes ?</p>
+        <p class="w-h1">Vous pensez avoir été exposé au Coronavirus COVID-19 et vous avez des symptômes ?</p>
         <div><img src="../assets/img/Mask.svg" alt=""></div>
         <div class="btn btn-primary mt-3 DemarrerBg">Démarrer le test</div>
     </div>
