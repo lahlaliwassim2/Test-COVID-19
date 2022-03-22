@@ -62,6 +62,6 @@
             <a class="ConsAcc w-h5" href="/index.php"> Accueil</a>
             <hr class="line">
             <a class="ConsAcc w-h5" href="/conseils.php">Conseils</a>
-
         </div>
     </div>
+    <div class="footer-line"></div>
