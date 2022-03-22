@@ -2,22 +2,22 @@
     <div class="container d-flex flex-column mt-5">
         <div class="d-flex flex-column flex-md-row  justify-content-around ">
             <div class=" flex-column text-center">
-                <img src="../assets/img/Fievre.svg" width="60px" alt="">
-                <p class="h5">Fièvre</p>
+                <img src="./assets/img/Fievre.svg" width="60px" alt="">
+                <p class="w-h5">Fièvre</p>
             </div>
             <div class="flex-column text-center">
-                <img src="../assets/img/nausee.svg" width="150px" alt="">
+                <img src="./assets/img/nausee.svg" width="150px" alt="">
                 <p class="w-h5"> Nausées et vomissements</p>
             </div>
         </div>
         <div class="d-flex flex-column flex-md-row justify-content-around">
             <div class="flex-column text-center">
-                <img src="../assets/img/gene.svg" width="150px" alt="">
+                <img src="./assets/img/gene.svg" width="150px" alt="">
                 <p class="w-h5"> Gêne respiratoire</p>
             </div>
 
             <div class="d-flex flex-column text-center">
-                <img src="../assets/img/gorge.svg" width="150px" alt="">
+                <img src="./assets/img/gorge.svg" width="150px" alt="">
                 <p class="w-h5"> Toux et maux de gorge</p>
             </div>
         </div>
@@ -58,9 +58,10 @@
             <p class="contact fw-bold">300</p>
         </div>
         <div class="d-flex flex-column align-items-center justify-content-center">
-            <a class="ConsAcc w-h5" href=""> Accueil</a>
+            <button class="btn border border-dark langue mb-4">FR <span><i class="far fa-globe text-warning"></i></span></button>
+            <a class="ConsAcc w-h5" href="/index.php"> Accueil</a>
             <hr class="line">
-            <a class="ConsAcc w-h5" href="">Conseils</a>
+            <a class="ConsAcc w-h5" href="/conseils.php">Conseils</a>
 
         </div>
     </div>
