@@ -76,6 +76,7 @@ nav .nav-link:hover{
     width: 100px;
     font-weight: bold;
     font-size: 18px;
+    cursor: pointer;
 }
 .active-check{
     color:#F4CF1B ;
