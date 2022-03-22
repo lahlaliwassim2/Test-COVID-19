@@ -15,20 +15,18 @@
                 <span class=" circle rounded-circle"></span>
                 <p>Questionnaire</p>
             </div>
-<<<<<<< HEAD
-            <div class="progress">
-                    <div class="progress-bar btn-primary">
-                        <span class="nbr-Q"></span>
-                    </div>
-                </div>
-=======
             <div class="Res d-flex flex-column align-items-center">
                 <span class=" circle rounded-circle"></span>
                 <p>Résulats</p>
             </div>
         </div>
->>>>>>> main
 
+
+            <div class="progress">
+                    <div class="progress-bar btn-primary">
+                        <span class="nbr-Q"></span>
+                    </div>
+            </div>
             <div class="Questions pt-5 bg-light">
                 <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false">
                     <div class="carousel-inner">
@@ -473,16 +471,6 @@
                     </button>
                 </div>
 
-            </div>
-            <div class="button d-flex justify-content-between px-3 pb-3">
-                <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    Précedent
-                </button>
-                <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    Suivant
-                </button>
             </div>
         </div>
         </div>
