@@ -24,8 +24,8 @@
 
 
             <div class="progress">
-                    <div class="progress-bar">
-                        <span class="nbr-Q"></span>
+                    <div class="progress-bar" style="width:4.55%;">
+                        <span class="nbr-Q">1/23</span>
                     </div>
             </div>
 
@@ -407,7 +407,7 @@
                 </div>
 
 
-                <div class="button d-flex justify-content-between px-3 pb-3 mt-5">
+                <div class="button d-flex justify-content-between px-3 pb-3 mt-7">
                     <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         Précedent
                     </button>
