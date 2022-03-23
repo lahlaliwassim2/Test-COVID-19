@@ -470,17 +470,6 @@
                         </div>
                     </div>
 
-<<<<<<< HEAD
-=======
-                <div class="button d-flex justify-content-between mt-4 px-3 pb-3">
-                    <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-                        Précedent
-                    </button>
-                    <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-                        Suivant
-                    </button>
-                    <a class="d-none btn-ter btn btn-primary"href="">Terminer le test</a>
->>>>>>> main
                 </div>
 
             </div>
