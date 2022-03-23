@@ -222,23 +222,21 @@
                             </div>
                         </div>
                         <div class="Q-13 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
-                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                            <i class="fas fa-check"></i>
-                                            <span>oui</span>
-                                            </div>
-                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                            <i class="fas fa-times"></i>
-                                            <span>non</span>
-                                            </div>
+                                <div class="reponse d-flex justify-content-center mt-5">
+                         <div class="form-check d-flex justify-content-center w-100 mt-5">
+                         <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
+                       <div class="ansKg p-2 bg-header">cm</div>
+                           </div>
+                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="Q-14 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Avez-vous de l’hypertension artérielle mal équilibrée ? Ou avez-vous une maladie cardiaque ou vasculaire ? Ou prenez-vous un traitement à visée cardiologique ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -255,7 +253,7 @@
                         
 
                         <div class="Q-15 carousel-item px-5 py-3">
-                            <h4 class="text-center">15</h4>
+                            <h4 class="text-center">Êtes-vous diabétique ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -271,7 +269,7 @@
                         </div>
 
                         <div class="Q-16 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Avez-vous ou avez-vous eu un cancer ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -287,7 +285,7 @@
                         </div>
 
                         <div class="Q-17 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Avez-vous une maladie respiratoire ? Ou êtes-vous suivi par un pneumologue ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -381,7 +379,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="Q-23 carousel-item px-5 py-3">
                             <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
@@ -397,7 +394,6 @@
                                 </div>
                             </div>
                         </div>
-
                 </div>
 
 
