@@ -1,7 +1,7 @@
 <header>
   <nav class="navbar navbar-light bg-header">
     <div class="container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="index.php">
         <img src="./assets/img/logo__sante.svg" alt="logo sante" height="40">
       </a>
       <div class="pages d-flex">
