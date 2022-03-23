@@ -404,11 +404,10 @@
                             </div>
                         </div>
 
-                    </div>
                 </div>
 
 
-                <div class="button d-flex justify-content-between mt-4 px-3 pb-3">
+                <div class="button d-flex justify-content-between px-3 pb-3 mt-5">
                     <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         Précedent
                     </button>
@@ -420,8 +419,7 @@
 
             </div>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="./js/main.js"></script>
 </body>

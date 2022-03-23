@@ -1,35 +1,37 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-.w-img{
+.w-img {
     width: auto;
     height: 20vh;
     margin-bottom: 25px;
 }
-.w-card{
+
+.w-card {
     text-align: center;
     padding: 30px;
 }
-.w-para{
+
+.w-para {
     color: #1A519E;
     font: Bold 21px/39px Cairo;
 }
-#infor{
+
+#infor {
     width: 100%;
     background-color: #D0E5F0;
     padding: 20px;
     margin-bottom: 40px;
 }
-.w-h{
+
+.w-h {
     color: #1078AD;
     font: Bold 40px/75px Cairo;
-    
 }
-.w-h1{
+
+.w-h1 {
     text-align: center;
     font: Bold 35px/39px Cairo;
     letter-spacing: 0;
@@ -37,7 +39,8 @@
     color: #1078AD;
     margin-bottom: 40px;
 }
-.w-h5{
+
+.w-h5 {
     font-size: 25px;
     font-weight: 700;
     letter-spacing: 0;
@@ -50,10 +53,7 @@
     background-image: url(../assets/img/bg-header.svg);
 }
 
-.bg-header{
-    background-image: url(../assets/img/bg-header.svg);
-}
-.Questions{
+.Questions {
     height: 400px;
 }
 
@@ -74,8 +74,9 @@
     transition: .5s ease-in-out !important;
     color: white !important;
 }
-.circle{
-    background-color:#1078AD;
+
+.circle {
+    background-color: #1078AD;
     height: 20px;
     width: 20px;
 }
@@ -88,9 +89,11 @@ nav .nav-link{
     font-size: 17px;
     font-weight: bold;
 }
-nav .nav-link:hover{
+
+nav .nav-link:hover {
     color: #054464 !important;
 }
+
 .error404 {
     width: 50vw;
 }
@@ -98,18 +101,22 @@ nav .nav-link:hover{
 .DemarrerBg{
     background-color: #96C5DC;
 }
-.ConsAcc{
+
+.ConsAcc {
     text-decoration: none;
     ;
 }
-.contact{
+
+.contact {
     color: rgb(0, 172, 0);
 }
-.line{
+
+.line {
     width: 200px;
     color: #054464;
 }
-.reponse .check{
+
+.reponse .check {
     border-radius: 4px;
     border: 2px solid #1078AD;
     width: 100px;
@@ -117,20 +124,44 @@ nav .nav-link:hover{
     font-size: 18px;
     cursor: pointer;
 }
-.active-check{
-    color:#F4CF1B ;
+
+.active-check {
+    color: #F4CF1B;
     background-color: #1078AD;
     transition: ease-in-out .3s;
 }
 
-.phoneNum{
+.phoneNum {
     color: green;
 }
-.footer-line{
+
+.footer-line {
     background-color: #1078AD;
     height: 40px;
 }
-.w-h4{
+
+.w-h4 {
     color: #1078AD;
 }
 
+.bgD {
+    background-color: #96C5DC;
+}
+
+.inputAgePoids {
+    border: #47c2ff solid 1px;
+    width: 60%;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.ansKg {
+    border: #47c2ff solid 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.information-area {
+    background-color: rgb(240, 240, 240);
+}
