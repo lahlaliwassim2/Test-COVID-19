@@ -1,13 +1,13 @@
 
 // -----------------------functions for progress and nbr questions ---------------------
-let prog = 0;
+let prog = 4.34;
 let nbrQues = 1;
 if(nbrQues == 1){
     document.querySelector(".btn-prv").style.visibility = "hidden";
 }
 document.querySelector(".btn-next").addEventListener("click",()=>{
     if(prog <100){
-        prog += 4.55;
+        prog += 4.34;
         nbrQues++;
         if(nbrQues == 23){
             document.querySelector(".btn-next").classList.add("d-none");
@@ -20,8 +20,8 @@ document.querySelector(".btn-next").addEventListener("click",()=>{
 })
 document.querySelector(".btn-prv").addEventListener("click",()=>{
     if(prog>0){
-        prog -= 4.55;
         nbrQues--;
+        prog -= 4.34;
         if(nbrQues == 1){
             document.querySelector(".btn-prv").style.visibility = "hidden";
         }
