@@ -29,7 +29,7 @@ Les informations de cette application est le premier niveau de la détection des
 </div>         
 </div>
         <div class="d-flex align-items-center flex-column gap-3  mt-4">
-       <a href="questions.php"> <button class="btn btn-demarrer btn-lg border border-secondary border-3 ">Démarrer Le Test</button></a>
+       <a href="questions.php"> <button class="btn btn-primary btn-lg border border-secondary border-3 ">Démarrer Le Test</button></a>
         <img  src="assets/img/ministre.svg" alt="" >
     </div>
     <div class="footer-section row mt-5   ">
@@ -47,12 +47,11 @@ Les informations de cette application est le premier niveau de la détection des
                     <a class="text-black fw-bold text-decoration-none list-unstyled" href="index.html">
                         <li>Accueil</li>
                     </a>
-
-                <hr class="line-menu"> 
+<hr class="line">
                     <a class="text-black fw-bold text-decoration-none list-unstyled" href="conseils.php">
                         <li >Conseil</li>
                     </a>
-                    <hr class="line-menu"> 
+                    <hr class="line">
                 </ul>
             </div>
     </div>

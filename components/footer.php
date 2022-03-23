@@ -42,10 +42,10 @@
             </div>
         </div>
     </div>
-    <div class="text-center p-4 DemarrerBg">
+    <div class="text-center p-4 bgD">
         <p class="w-h1">Vous pensez avoir été exposé au Coronavirus COVID-19 et vous avez des symptômes ?</p>
-        <div><img src="../assets/img/Mask.svg" alt=""></div>
-        <a href="ready.php"><div class="btn btn-primary mt-3 DemarrerBg">Démarrer le test</div></a>
+        <div><img src="./assets/img/Mask.svg" alt=""></div>
+        <a class="btn btn-primary mt-3 w-h5 " href="">Démarrer le test</a>
     </div>
     <div class="text-center mt-5"><img src="../assets/img/ministre.svg" alt=""></div>
     <div class="d-flex flex-column flex-md-row justify-content-around">
@@ -60,9 +60,9 @@
         </div>
         <div class="d-flex flex-column align-items-center justify-content-center">
             <button class="btn border border-dark langue mb-4">FR <span><i class="far fa-globe text-warning"></i></span></button>
-            <a class="ConsAcc w-h5" href="/index.php"> Accueil</a>
+            <a class="ConsAcc w-h5" href="./index.php"> Accueil</a>
             <hr class="line">
-            <a class="ConsAcc w-h5" href="/conseils.php">Conseils</a>
+            <a class="ConsAcc w-h5" href="./conseils.php">Conseils</a>
         </div>
     </div>
     <div class="footer-line"></div>
