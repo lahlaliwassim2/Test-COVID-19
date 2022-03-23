@@ -83,8 +83,13 @@
     width: 20px;
 }
 
+<<<<<<< HEAD
 .progress {
     height: 10px !important;
+=======
+.progress{
+    height: 15px !important;
+>>>>>>> f86cd979f657b12e14d02fdfa5e1ad8f8ae361c5
 }
 
 nav .nav-link {
@@ -166,4 +171,7 @@ nav .nav-link:hover {
 
 .information-area {
     background-color: rgb(240, 240, 240);
+}
+.mt-7{
+    margin-top: 80px;
 }
