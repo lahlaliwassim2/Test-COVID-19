@@ -1,4 +1,5 @@
-    <p class="text-center mt-5 w-h1">Quels sont les symptômes à surveiller ?</p>
+
+<p class="text-center mt-5 w-h1">Quels sont les symptômes à surveiller ?</p>
     <div class="container d-flex flex-column mt-5">
         <div class="d-flex flex-column flex-md-row  justify-content-around ">
             <div class=" flex-column text-center">
@@ -65,3 +66,4 @@
         </div>
     </div>
     <div class="footer-line"></div>
+

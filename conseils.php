@@ -4,6 +4,9 @@
 include('components/head.php')
 ?>
 <body>
+    <?php
+    include("components/header.php")
+    ?>
             <div class="container">
                 <div class="row">
                     <div class="mt-4 col-12 text-center">
@@ -57,6 +60,9 @@ include('components/head.php')
                  </div>
             </div>
         </section>
+        <?php
+        include('components/footer.php')
+        ?>
 </body>
 </html>
 

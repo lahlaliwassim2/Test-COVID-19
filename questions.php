@@ -219,6 +219,23 @@
                                 <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
                                     <i class="fal fa-tired"></i>
                                     <span>Très fatigué(e)</span>
+    
+                    </div>
+                    <div class=" Q-13 carousel-item px-5 py-3">
+                        <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
+                        <div class="reponse d-flex justify-content-center mt-5">
+                                    <div class="form-check d-flex gap-5">
+                                        <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                        <i class="fas fa-check"></i>
+                                        <span>oui</span>
+                                        </div>
+                                        <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                        <i class="fas fa-times"></i>
+                                        <span>non</span>
+                                        </div>
+                                    </div>
+                                    <div class="form-check">
+                                    </div>
                                 </div>
                             </div>
                             <div class="form-check">
@@ -453,6 +470,17 @@
                         </div>
                     </div>
 
+<<<<<<< HEAD
+=======
+                <div class="button d-flex justify-content-between mt-4 px-3 pb-3">
+                    <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        Précedent
+                    </button>
+                    <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        Suivant
+                    </button>
+                    <a class="d-none btn-ter btn btn-primary"href="">Terminer le test</a>
+>>>>>>> main
                 </div>
 
             </div>
