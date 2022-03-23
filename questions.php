@@ -258,24 +258,19 @@
                     <div class=" Q-13 carousel-item px-5 py-3">
                         <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
-                                    <div class="form-check d-flex gap-5">
-                                        <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                        <i class="fas fa-check"></i>
-                                        <span>oui</span>
-                                        </div>
-                                        <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                        <i class="fas fa-times"></i>
-                                        <span>non</span>
-                                        </div>
-                                    </div>
-                                    <div class="form-check">
-                                    </div>
+                                    <div class="form-check d-flex gap-5 w-100 ">
+                                        
+                                        
+                                                   <input type="number" class="w-75 " id="tentacles" name="tentacles"
+                                                 min="10" max="100">
+</div> 
+                                    
                                 </div>
     
                     </div>
                     
                     <div class=" Q-14 carousel-item px-5 py-3">
-                        <h4 class="text-center">Quelle est votre température corporelle ?</h4>
+                        <h4 class="text-center">Avez-vous de l’hypertension artérielle mal équilibrée ? Ou avez-vous une maladie cardiaque ou vasculaire ? Ou prenez-vous un traitement à visée cardiologique ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                                     <div class="form-check d-flex gap-5">
                                         <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -294,7 +289,7 @@
                     </div>
 
                     <div class=" Q-15 carousel-item px-5 py-3">
-                        <h4 class="text-center">Quelle est votre température corporelle ?</h4>
+                        <h4 class="text-center">Êtes-vous diabétique ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                                     <div class="form-check d-flex gap-5">
                                         <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -313,7 +308,7 @@
                     </div>
 
                     <div class=" Q-16 carousel-item px-5 py-3">
-                        <h4 class="text-center">Quelle est votre température corporelle ?</h4>
+                        <h4 class="text-center">Avez-vous ou avez-vous eu un cancer ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                                     <div class="form-check d-flex gap-5">
                                         <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
