@@ -83,10 +83,13 @@ nav .nav-link:hover{
 .error404 {
     width: 50vw;
 }
+<<<<<<< HEAD
+=======
 
 .DemarrerBg{
     background-color: #96C5DC;
 }
+>>>>>>> main
 .ConsAcc{
     text-decoration: none;
     ;
@@ -122,5 +125,20 @@ nav .nav-link:hover{
 }
 .w-h4{
     color: #1078AD;
+}
+.bgD{
+    background-color: #96C5DC;
+}
+.inputAgePoids{
+    border:#47c2ff solid 1px;
+    width: 60%;
+    height: 50px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.ansKg{
+    border: #47c2ff solid 1px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
