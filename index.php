@@ -31,7 +31,7 @@ include('components/head.php');
             <p class="fw-bold fs-4 opacity-75">J'appelle le 15 ?</p>
             <p class="fw-bold fs-5 text-center opacity-75">Faites le test pour répondre en citoyen
                 éclairé selon vos symptômes.</p>
-            <a href=""></a><div class="btn w-75 w-h5 btn-primary">Demarer le test</div>
+            <a href="ready.php"></a><div class="btn w-75 w-h5 btn-primary">Demarer le test</div>
         </div>
     </div>
     <?php
