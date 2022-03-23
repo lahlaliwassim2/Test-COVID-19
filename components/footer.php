@@ -43,10 +43,10 @@
 </div>
 <div class="text-center p-4 bgD">
     <p class="w-h1">Vous pensez avoir été exposé au Coronavirus COVID-19 et vous avez des symptômes ?</p>
-    <div><img src="./assets/img/Mask.svg" alt=""></div>
+    <div><img src="assets/img/Mask.svg" alt=""></div>
     <a class="btn btn-primary mt-3 w-h5 " href="ready.php">Démarrer le test</a>
 </div>
-<div class="text-center mt-5"><img src="../assets/img/ministre.svg" alt=""></div>
+<div class="text-center mt-5"><img src="assets/img/ministre.svg" alt=""></div>
 <div class="d-flex flex-column flex-md-row justify-content-around">
     <div class="text-center">
         <p class="w-h5">Contact utiles</p>
