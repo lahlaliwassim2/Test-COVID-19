@@ -469,6 +469,7 @@
                     <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         Suivant
                     </button>
+                    <a class="d-none btn-ter btn btn-primary"href="">Terminer le test</a>
                 </div>
 
             </div>
