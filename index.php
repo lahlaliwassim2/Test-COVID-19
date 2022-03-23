@@ -4,13 +4,14 @@
 <?php
 include('components/head.php');
 ?>
+
 <body>
     <?php
     include('components/header.php');
     ?>
-    <div class="bg-warning text-center mt-3 p-3">
-        <p class="fw-bold h4">LA DERNIÈRE INFO MÉDICALE</p>
-        <p class="text-primary">
+    <div class="bg-warning text-center p-3">
+        <p class="fw-bold w-h4 h4">LA DERNIÈRE INFO MÉDICALE</p>
+        <p>
             La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur
             d'aggravation de l’infection.En cas de fièvre, prenez du paracétamol.
             N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien.
@@ -21,14 +22,14 @@ include('components/head.php');
             <img src="assets/img/doctor.png" class="w-75" alt="doctors">
         </div>
         <div class="col-12 col-md-6 d-flex flex-column align-items-center">
-            <p class="text-center h5 text-primary">
+            <p class="text-center h5 w-h4">
                 Vous pensez avoir été exposé au <br>
                 Coronavirus COVID-19 et avez des symptômes ? </p>
             <img src="assets/img/Mask.svg" class="" alt="maskFace">
-            <p class="fw-bold fs-4">Je reste vigilant ? </p>
-            <p class="fw-bold fs-4 text-center">Je programme une téléconsultation ?</p>
-            <p class="fw-bold fs-4">J'appelle le 15 ?</p>
-            <p class="fw-bold fs-5 text-center">Faites le test pour répondre en citoyen
+            <p class="fw-bold fs-4 opacity-75">Je reste vigilant ? </p>
+            <p class="fw-bold fs-4 text-center opacity-75">Je programme une téléconsultation ?</p>
+            <p class="fw-bold fs-4 opacity-75">J'appelle le 15 ?</p>
+            <p class="fw-bold fs-5 text-center opacity-75">Faites le test pour répondre en citoyen
                 éclairé selon vos symptômes.</p>
             <div class="btn btn-primary w-75">Demarer le test</div>
         </div>
