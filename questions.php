@@ -51,23 +51,17 @@
 
 
                         <div class="Q-2 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Quelle est votre température corporelle ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
-                                <div class="form-check d-flex gap-5">
-                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                            <i class="fas fa-check"></i>
-                                            <span>oui</span>
-                                            </div>
-                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                            <i class="fas fa-times"></i>
-                                            <span>non</span>
-                                            </div>
+                                <div class="form-check d-flex justify-content-center w-100 mt-5">
+                                    <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
+                                    <div class="ansKg p-2 bg-header">degrés</div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="Q-3 carousel-item px-5 py-3">
-                            <h4 class="text-center">3</h4>
+                            <h4 class="text-center">Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -84,7 +78,7 @@
 
 
                         <div class="Q-4 carousel-item px-5 py-3">
-                            <h4 class="text-center">4</h4>
+                            <h4 class="text-center">Avez-vous eu des courbatures inhabituelles au cours des derniers jours ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -100,7 +94,7 @@
                         </div>
 
                         <div class="Q-5 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Ces derniers jours, avez-vous un mal de gorge ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -117,7 +111,7 @@
 
 
                         <div class="Q-6 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Ces dernières 24 heures, avez-vous de la diarrhée ? Avec au moins 3 selles molles.</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
