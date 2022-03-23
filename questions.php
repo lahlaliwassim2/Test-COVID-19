@@ -177,22 +177,22 @@
                     <div class="Q-10 carousel-item px-5 py-3">
                         <h4 class="text-center">Actuellement, comment vous vous sentez ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
+                            <div class="form-check d-flex gap-5 flex-wrap">
+                                <div class="check oui d-flex flex-column gap-2 align-items-center justify-content-center px-4 py-3">
+                                    <i class="fal fa-laugh-beam"></i>
+                                    <span>Bien</span>
                                 </div>
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
+                                <div class="check oui d-flex flex-column gap-2 align-items-center justify-content-center px-4 py-3 text-center">
+                                    <i class="far fa-smile"></i>
+                                    <span>Assez bien</span>
                                 </div>
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
+                                <div class="check oui d-flex flex-column gap-2 align-items-center justify-content-center px-4 py-3">
+                                    <i class="far fa-frown"></i>
+                                    <span>Fatigué(e)</span>
                                 </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                                <div class="check non d-flex flex-column gap-2 align-items-center justify-content-center px-4 py-3 text-center">
+                                    <i class="far fa-tired"></i>
+                                    <span>Très fatigué(e)</span>
                                 </div>
                             </div>
                         </div>
@@ -202,8 +202,8 @@
                         <h4 class="text-center">Quel est votre âge ? Ceci, afin de calculer un facteur de risque spécifique.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
-                                <div class="ansKg p-2 bg-header">Kg</div>
+                                <input class="inputAgePoids p-2" type="number" min="15" max="120" placeholder="15-120">
+                                <div class="ansKg p-2 bg-header">ans</div>
                             </div>
                         </div>
                     </div>
@@ -220,13 +220,9 @@
                     <div class="Q-13 carousel-item px-5 py-3">
                         <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="reponse d-flex justify-content-center mt-5">
-                                    <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                        <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
-                                        <div class="ansKg p-2 bg-header">cm</div>
-                                    </div>
-                                </div>
+                            <div class="form-check d-flex justify-content-center w-100 mt-5">
+                                <input class="inputAgePoids p-2" type="number" min="80" max="250" placeholder="80-250">
+                                <div class="ansKg p-2 bg-header">cm</div>
                             </div>
                         </div>
                     </div>
