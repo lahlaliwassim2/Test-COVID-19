@@ -309,7 +309,8 @@
                         </div>
 
                         <div class="Q-18 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Avez-vous une insuffisance rénale chronique dialysée ?
+</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -325,7 +326,8 @@
                         </div>
 
                         <div class="Q-19 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Avez-vous une maladie chronique du foie ?
+</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -341,7 +343,8 @@
                         </div>
 
                         <div class="Q-20 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Êtes-vous enceinte ?
+</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -352,12 +355,16 @@
                                             <i class="fas fa-times"></i>
                                             <span>non</span>
                                             </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-male"></i>
+                                            <span>Homme</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
 
                         <div class="Q-21 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Avez-vous une maladie connue pour diminuer vos défenses immunitaires ?</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -373,7 +380,7 @@
                         </div>
 
                         <div class="Q-22 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <h4 class="text-center">Prenez-vous un traitement immunosuppresseur ? C’est un traitement qui diminue vos défenses contre les infections. Voici quelques exemples : corticoïdes, méthotrexate, ciclosporine, tacrolimus, azathioprine, cyclophosphamide (liste non exhaustive).</h4>
                             <div class="reponse d-flex justify-content-center mt-5">
                                 <div class="form-check d-flex gap-5">
                                             <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
@@ -388,21 +395,7 @@
                             </div>
                         </div>
 
-                        <div class="Q-23 carousel-item px-5 py-3">
-                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                            <div class="reponse d-flex justify-content-center mt-5">
-                                <div class="form-check d-flex gap-5">
-                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                            <i class="fas fa-check"></i>
-                                            <span>oui</span>
-                                            </div>
-                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                            <i class="fas fa-times"></i>
-                                            <span>non</span>
-                                            </div>
-                                </div>
-                            </div>
-                        </div>
+                        
 
                 </div>
 
