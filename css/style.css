@@ -48,11 +48,8 @@
     line-height: 35px;
 }
 
-.bg-header {
-    background-image: url(../assets/img/bg-header.svg);
-}
 
-.bg-header {
+.bg-header{
     background-image: url(../assets/img/bg-header.svg);
 }
 
@@ -60,12 +57,22 @@
     height: 400px;
 }
 
-.langue {
+.langue{
     font-size: 15px;
 }
-
-.btn-primary {
-    background-color: #1078AD !important;
+.progress-bar{
+    background-color:#1078AD !important;
+}
+.btn-primary{
+    background: url(../assets/img/bg-header.svg) !important;
+    background-size: cover !important;
+    border: 2px solid #1078AD !important;
+    color: #1078AD !important;
+}
+.btn-primary:hover{
+    background-color:#1078AD !important;
+    transition: .5s ease-in-out !important;
+    color: white !important;
 }
 
 .circle {
@@ -74,11 +81,11 @@
     width: 20px;
 }
 
-.progress {
+.progress{
     height: 10px !important;
 }
 
-nav .nav-link {
+nav .nav-link{
     font-size: 17px;
     font-weight: bold;
 }
@@ -91,7 +98,7 @@ nav .nav-link:hover {
     width: 50vw;
 }
 
-.DemarrerBg {
+.DemarrerBg{
     background-color: #96C5DC;
 }
 
