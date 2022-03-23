@@ -256,7 +256,7 @@
     
                     </div>
                     <div class=" Q-13 carousel-item px-5 py-3">
-                        <h4 class="text-center">Quelle est votre température corporelle ?</h4>
+                        <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                                     <div class="form-check d-flex gap-5">
                                         <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">

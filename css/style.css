@@ -1,8 +1,10 @@
 
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
     font-family: 'Poppins', sans-serif;
 }
+
 .w-img{
     width: auto;
     height: 20vh;
@@ -42,12 +44,19 @@
     color: #1078AD;
     line-height: 35px;
 }
+
+
+.bg-header{
+    background-image: url(../assets/img/bg-header.svg);
+}
+
 .bg-header{
     background-image: url(../assets/img/bg-header.svg);
 }
 .Questions{
     height: 400px;
 }
+
 .langue{
     font-size: 15px;
 }
@@ -60,6 +69,10 @@
     width: 20px;
 }
 
+.progress{
+    height: 10px !important;
+}
+
 nav .nav-link{
     font-size: 17px;
     font-weight: bold;
@@ -70,6 +83,7 @@ nav .nav-link:hover{
 .error404 {
     width: 50vw;
 }
+
 .DemarrerBg{
     background-color: #96C5DC;
 }
@@ -98,6 +112,7 @@ nav .nav-link:hover{
     transition: ease-in-out .3s;
 }
 
+
 .phoneNum{
     color: green;
 }
@@ -108,5 +123,4 @@ nav .nav-link:hover{
 .w-h4{
     color: #1078AD;
 }
-
 
