@@ -91,11 +91,11 @@ nav .nav-link:hover {
     width: 50vw;
 }
 
-<<<<<<< HEAD=======.DemarrerBg {
+.DemarrerBg {
     background-color: #96C5DC;
 }
 
->>>>>>>main .ConsAcc {
+.ConsAcc {
     text-decoration: none;
     ;
 }
@@ -153,4 +153,8 @@ nav .nav-link:hover {
     border: #47c2ff solid 1px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+}
+
+.information-area {
+    background-color: rgb(240, 240, 240);
 }
