@@ -82,7 +82,7 @@
 }
 
 .progress{
-    height: 10px !important;
+    height: 15px !important;
 }
 
 nav .nav-link{
@@ -164,4 +164,7 @@ nav .nav-link:hover {
 
 .information-area {
     background-color: rgb(240, 240, 240);
+}
+.mt-7{
+    margin-top: 80px;
 }
