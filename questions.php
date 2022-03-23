@@ -23,9 +23,10 @@
         </div>
 
 
-        <div class="progress">
-            <div class="progress-bar">
-                <span class="nbr-Q"></span>
+            <div class="progress">
+                    <div class="progress-bar" style="width:4.55%;">
+                        <span class="nbr-Q">1/23</span>
+                    </div>
             </div>
         </div>
 
@@ -50,83 +51,82 @@
                     </div>
 
 
-                    <div class="Q-2 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-2 carousel-item px-5 py-3">
+                            <h4 class="text-center">Quelle est votre température corporelle ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex justify-content-center w-100 mt-5">
+                                    <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
+                                    <div class="ansKg p-2 bg-header">degrés</div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="Q-3 carousel-item px-5 py-3">
-                        <h4 class="text-center">3</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="Q-4 carousel-item px-5 py-3">
-                        <h4 class="text-center">4</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Q-5 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-3 carousel-item px-5 py-3">
+                            <h4 class="text-center">Ces derniers jours, avez-vous une toux ou une augmentation de votre toux habituelle ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="Q-6 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
+                        <div class="Q-4 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous eu des courbatures inhabituelles au cours des derniers jours ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="Q-5 carousel-item px-5 py-3">
+                            <h4 class="text-center">Ces derniers jours, avez-vous un mal de gorge ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                        <div class="Q-6 carousel-item px-5 py-3">
+                            <h4 class="text-center">Ces dernières 24 heures, avez-vous de la diarrhée ? Avec au moins 3 selles molles.</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
@@ -222,188 +222,198 @@
                                 <div class="ansKg p-2 bg-header">Kg</div>
                             </div>
                         </div>
+                        <div class="Q-13 carousel-item px-5 py-3">
+                            <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                <div class="reponse d-flex justify-content-center mt-5">
+                         <div class="form-check d-flex justify-content-center w-100 mt-5">
+                         <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
+                       <div class="ansKg p-2 bg-header">cm</div>
+                           </div>
                     </div>
-                    <div class="Q-13 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="Q-14 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
+                        <div class="Q-14 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous de l’hypertension artérielle mal équilibrée ? Ou avez-vous une maladie cardiaque ou vasculaire ? Ou prenez-vous un traitement à visée cardiologique ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                            </div>
+                        </div>
+                        
+
+                        <div class="Q-15 carousel-item px-5 py-3">
+                            <h4 class="text-center">Êtes-vous diabétique ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-
-                    <div class="Q-15 carousel-item px-5 py-3">
-                        <h4 class="text-center">15</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Q-16 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-16 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous ou avez-vous eu un cancer ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="Q-17 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Q-18 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-17 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous une maladie respiratoire ? Ou êtes-vous suivi par un pneumologue ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="Q-19 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Q-20 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-18 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous une insuffisance rénale chronique dialysée ?
+</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="Q-21 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="Q-22 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-19 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous une maladie chronique du foie ?
+</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="Q-23 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
+                        <div class="Q-20 carousel-item px-5 py-3">
+                            <h4 class="text-center">Êtes-vous enceinte ?
+</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-male"></i>
+                                            <span>Homme</span>
+                                            </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                        <div class="Q-21 carousel-item px-5 py-3">
+                            <h4 class="text-center">Avez-vous une maladie connue pour diminuer vos défenses immunitaires ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="Q-22 carousel-item px-5 py-3">
+                            <h4 class="text-center">Prenez-vous un traitement immunosuppresseur ? C’est un traitement qui diminue vos défenses contre les infections. Voici quelques exemples : corticoïdes, méthotrexate, ciclosporine, tacrolimus, azathioprine, cyclophosphamide (liste non exhaustive).</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="Q-23 carousel-item px-5 py-3">
+                            <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
+                            <div class="reponse d-flex justify-content-center mt-5">
+                                <div class="form-check d-flex gap-5">
+                                            <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-check"></i>
+                                            <span>oui</span>
+                                            </div>
+                                            <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
+                                            <i class="fas fa-times"></i>
+                                            <span>non</span>
+                                            </div>
+                                </div>
+                            </div>
+                        </div>
                 </div>
 
 
-                <div class="button d-flex justify-content-between px-3 pb-3 mt-5">
+                <div class="button d-flex justify-content-between px-3 pb-3 mt-7">
                     <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         Précedent
                     </button>
