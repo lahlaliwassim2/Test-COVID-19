@@ -2,10 +2,14 @@
 // -----------------------functions for progress and nbr questions ---------------------
 let prog = 4.34;
 let nbrQues = 1;
+const btnNext = document.querySelector(".btn-next");
+const btnPrev = document.querySelector(".btn-prv");
+
 if(nbrQues == 1){
     document.querySelector(".btn-prv").style.visibility = "hidden";
 }
-document.querySelector(".btn-next").addEventListener("click",()=>{
+
+btnNext.addEventListener("click",()=>{
     if(prog <100){
         prog += 4.34;
         nbrQues++;
@@ -16,9 +20,21 @@ document.querySelector(".btn-next").addEventListener("click",()=>{
         document.querySelector(".progress-bar").style.width = prog+"%";
         document.querySelector(".nbr-Q").innerHTML = nbrQues +"/23";
         document.querySelector(".btn-prv").style.visibility = "visible";
+
+        // -------push reponse in object----------
+        Questions["Q"+Q] = reponse;
+        Q++;
+        reponse = "";
+        if(reponse == ""){
+            btnNext.setAttribute("disabled","");
+        }
+
+        console.log(Questions);
     }
 })
-document.querySelector(".btn-prv").addEventListener("click",()=>{
+
+btnPrev.addEventListener("click",()=>{
+    Q--;
     if(prog>0){
         nbrQues--;
         prog -= 4.34;
@@ -35,23 +51,45 @@ document.querySelector(".btn-prv").addEventListener("click",()=>{
 
 // -----------------------functions for progress and nbr questions ---------------------
 
-//---------------------------------- functions for check button -----------------------------
-let btnCheck = document.querySelectorAll(".check");
 
-btnCheck.forEach(btn => {
-    btn.addEventListener("click",()=>{
-        if(document.querySelector(".oui").className.includes("active-check")){
-            document.querySelector(".oui").classList.remove("active-check");
-            document.querySelector(".non").classList.add("active-check");
-        }
-        else if(document.querySelector(".non").className.includes("active-check")){
-            document.querySelector(".non").classList.remove("active-check");
-            document.querySelector(".oui").classList.add("active-check");
-        }
-        else{
-            btn.classList.add("active-check");
-        }
+//---------------------------------- functions for check button -----------------------------
+let btnOui = document.querySelectorAll(".oui");
+let btnNon = document.querySelectorAll(".non");
+
+btnOui.forEach(btn=> {
+    btn.addEventListener("click",function(){
+        btn.classList.toggle("active-check");
+    })
+});
+
+btnNon.forEach(btn=> {
+    btn.addEventListener("click",function(){
+        btn.classList.toggle("active-check");
     })
 });
 
 //---------------------------------- functions for check button -----------------------------
+
+// -----------------------create object---------------------
+let Q = 1;
+let Questions = new Object();
+// -----------------------object---------------------
+
+
+// ----------------------------checked oui ou non -----------------------------------
+const checked = document.querySelectorAll(".check");
+let reponse = "";
+
+checked.forEach(btn => {
+    btn.addEventListener("click",()=>{
+        reponse = btn.children[1].innerHTML;
+        btnNext.removeAttribute("disabled","");
+        console.log(reponse);
+    })
+});
+
+if(reponse == ""){
+    btnNext.setAttribute("disabled","");
+}
+
+
