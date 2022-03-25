@@ -79,7 +79,7 @@ let Questions = new Object();
 // ----------------------------checked oui ou non -----------------------------------
 const checked = document.querySelectorAll(".check");
 let reponse = "";
-
+btnNext.setAttribute("disabled","");
 checked.forEach(btn => {
     btn.addEventListener("click",()=>{
         reponse = btn.children[1].innerHTML;
@@ -88,8 +88,14 @@ checked.forEach(btn => {
     })
 });
 
-if(reponse == ""){
-    btnNext.setAttribute("disabled","");
-}
 
-
+// ----------------------------inputs -----------------------------------
+let inputs = document.querySelectorAll(".inputAgePoids");
+inputs.forEach(input => {
+    input.addEventListener("mouseout",()=>{
+        if(input.value != ""){
+            reponse = input.value;
+            btnNext.removeAttribute("disabled","");
+        }
+    })
+});
