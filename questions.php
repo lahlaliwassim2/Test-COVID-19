@@ -54,7 +54,7 @@
                         <h4 class="text-center">Quelle est votre température corporelle ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
+                                <input class="inputAgePoids p-2" type="number" min="34" max="42" placeholder="34-42">
                                 <div class="ansKg p-2 bg-header">degrés</div>
                             </div>
                         </div>
@@ -378,6 +378,7 @@
                             </div>
                         </div>
                     </div>
+
                     <div class="Q-23 carousel-item px-5 py-3">
                         <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
@@ -393,16 +394,20 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
 
 
                 <div class="button d-flex justify-content-between px-3 pb-3 mt-7">
+
                     <button class="btn-prv btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                         Précedent
                     </button>
+
                     <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         Suivant
                     </button>
+                    
                     <a class="d-none btn-ter btn btn-primary" href="">Terminer le test</a>
                 </div>
 
