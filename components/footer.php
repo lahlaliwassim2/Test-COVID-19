@@ -1,22 +1,22 @@
 <p class="text-center mt-5 w-h1">Quels sont les symptômes à surveiller ?</p>
 <div class="container d-flex flex-column mt-5">
-    <div class="d-flex flex-column flex-md-row  justify-content-around ">
-        <div class=" flex-column text-center">
+    <div class="d-flex flex-column flex-md-row  justify-content-around">
+        <div class=" flex-column text-center align-items-center">
             <img src="assets/img/Fievre.svg" width="60px" alt="">
             <p class="w-h5">Fièvre</p>
         </div>
-        <div class="flex-column text-center">
-            <img src="assets/img/nausee.svg" width="150px" alt="">
+        <div class="flex-column text-center align-items-center">
+            <img src="assets/img/nausee.svg" width="120px" alt="">
             <p class="w-h5"> Nausées et vomissements</p>
         </div>
     </div>
     <div class="d-flex flex-column flex-md-row justify-content-around">
-        <div class="flex-column text-center">
+        <div class="flex-column text-center align-items-center">
             <img src="assets/img/gene.svg" width="150px" alt="">
             <p class="w-h5"> Gêne respiratoire</p>
         </div>
 
-        <div class="d-flex flex-column text-center">
+        <div class="d-flex flex-column text-center align-items-center">
             <img src="assets/img/gorge.svg" width="150px" alt="">
             <p class="w-h5"> Toux et maux de gorge</p>
         </div>
