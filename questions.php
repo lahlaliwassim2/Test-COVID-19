@@ -30,7 +30,7 @@
         </div>
 
         <div class="Questions pt-5 bg-light">
-            <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false">
+            <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false" data-bs-touch="false">
                 <div class="carousel-inner">
 
                     <div class="Q-1 carousel-item active px-5 py-3">
@@ -408,7 +408,7 @@
                         Suivant
                     </button>
                     
-                    <a class="d-none btn-ter btn btn-primary" href="">Terminer le test</a>
+                    <button class="d-none btn-ter btn btn-primary">Terminer le test</button>
                 </div>
 
             </div>

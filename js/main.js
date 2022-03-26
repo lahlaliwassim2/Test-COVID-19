@@ -99,3 +99,19 @@ inputs.forEach(input => {
         }
     })
 });
+
+// -------------------function for calcul maladie----------------------------
+function malad_calcul(){
+    let mal = 0;
+    for (let i = 14; i < 23; i++) {
+        if(Questions["Q"+i] == "oui"){
+            mal++;
+        }
+    }
+    return mal;
+}
+
+let btn_ter = document.querySelector(".btn-ter");
+btn_ter.addEventListener("click",()=>{
+    console.log(malad_calcul());
+})
