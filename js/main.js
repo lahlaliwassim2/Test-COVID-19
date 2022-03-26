@@ -110,7 +110,18 @@ function malad_calcul(){
     }
     return mal;
 }
-
+function situation2(){
+    if (Questions.Q1 == 'oui' && Questions.Q3 == 'oui'){
+       if(malad_calcul() == 0){
+          console.log('tasl b tabib aw sir 3ndo ');
+       }else if (Gravite_Majeur() == 0 || Gravite_Mineur() == 1){
+        console.log('tasl btabib aw zyara');
+       }else if (Gravite_Mineur() > 1){
+          console.log('tasl b 141');
+       }
+    }
+ }
+ 
 function Gravite_Mineur(){
     let GMn = 0;
     if(Questions.Q1 == "oui"){
