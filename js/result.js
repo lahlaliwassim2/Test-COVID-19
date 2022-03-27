@@ -79,22 +79,21 @@ function situation2() {
 function situation3() {
     if (Questions.Q1 == "oui" || Questions.Q3 == "oui" || Questions.Q5 == "oui" || Questions.Q4 == "oui") {
         if (Gravite_Majeur() == 0 && Gravite_Mineur() == 0) {
-            console.log("sir ltbib");
+            document.getElementById("appelMedecin").classList.remove('d-none');
         }
         else if (Gravite_Majeur() >= 1 || Gravite_Mineur() >= 1 || malad_calcul() >= 1) {
-            console.log("appeler 141");
+            document.getElementById("appel141").classList.remove('d-none');
         }
     }
 }
 /////////////////////Situation numero quatre/////////////////////////
 function situation4() {
     if (malad_calcul() === 0 && Gravite_Majeur() === 0 && Gravite_Mineur() == 0) {
-        console.log("Votre situation ne relève probablement pas du Covid-19");
+        document.getElementById('pasCovid').classList.remove('d-none');
+
     }
 }
 situation1();
 situation2();
 situation3();
 situation4();
-    // console.log("gravite mineur " + Gravite_Mineur());
-    // console.log("gravite majeur " + Gravite_Majeur());
