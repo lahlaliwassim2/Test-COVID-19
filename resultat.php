@@ -28,6 +28,7 @@
                 <p class="m-4 text-center h3 textColor d-none" id="resteMaison"> nous vous conseillons de rester à votre domicile et
                     de contacter votre médecin en cas d’apparition de nouveaux symptômes. Vous pourrez
                     aussi utiliser à nouveau l’application pour réévaluer vos symptômes</p>
+                <p class="m-5 text-center display-6 text-success d-none" id="pasCovid">Votre situation ne relève probablement pas du Covid-19</p>
                 <hr class="w-100">
                 <p class="textColor h4">Restez chez vous au maximum en attendant que les symptômes disparaissent.
                     Prenez votre température deux fois par jour. Rappel des mesures d’hygiène.
@@ -50,7 +51,7 @@
             </div>
             <div class="col-12 col-md-4    ">
                 <ul class="d-flex align-items-center flex-column">
-                    <a class="text-black fw-bold text-decoration-none list-unstyled" href="index.html">
+                    <a class="text-black fw-bold text-decoration-none list-unstyled" href="index.php">
                         <li>Accueil</li>
                     </a>
                     <hr class="line">
