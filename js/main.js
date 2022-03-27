@@ -128,7 +128,7 @@ function Gravite_Mineur(){
         GMn++;
     }
     if(Questions.Q7 == "oui"){
-        GMn++;
+        GMn++; 
     }
     if(Questions.Q2 >= 39){
         GMn++;
@@ -176,6 +176,7 @@ function situation1(){
 }
 
 
+
 let btn_ter = document.querySelector(".btn-ter");
 btn_ter.addEventListener("click",()=>{
     situation1();
@@ -185,3 +186,20 @@ btn_ter.addEventListener("click",()=>{
     console.log("gravite mineur " + Gravite_Mineur());
     console.log("gravite majeur " + Gravite_Majeur());
 })
+///////////////////////////Situation numero trois/////////////////////////////////
+function situation3() {
+    if(Questions.Q1 =="oui" || Questions.Q3 == "oui" ||Questions.Q5 == "oui" || Questions.Q4 == "oui"){
+        if( Gravite_Majeur() == 0 && Gravite_Mineur() == 0){
+            console.log("sir ltbib");
+        }
+        else if( Gravite_Majeur() >= 1 || Gravite_Mineur() >= 1 || malad_calcul() >=1){
+            console.log("appeler 141");
+        }
+    }
+}
+/////////////////////Situation numero quatre/////////////////////////
+function situation4() {
+    if( malad_calcul() ===0 && Gravite_Majeur() === 0 && Gravite_Mineur() ==0){
+        console.log("Votre situation ne relève probablement pas du Covid-19");
+    }
+}
