@@ -99,17 +99,6 @@ inputs.forEach(input => {
         }
     })
 });
-
-// -------------------function for calcul maladie----------------------------
-function malad_calcul(){
-    let mal = 0;
-    for (let i = 14; i < 23; i++) {
-        if(Questions["Q"+i] == "oui"){
-            mal++;
-        }
-    }
-    return mal;
-}
 let btn_ter = document.querySelector(".btn-ter");
 btn_ter.addEventListener("click", function () {
     let localstorage = window.localStorage;
@@ -118,20 +107,3 @@ btn_ter.addEventListener("click", function () {
 
 
 })
-///////////////////////////Situation numero trois/////////////////////////////////
-function situation3() {
-    if(Questions.Q1 =="oui" || Questions.Q3 == "oui" ||Questions.Q5 == "oui" || Questions.Q4 == "oui"){
-        if( Gravite_Majeur() == 0 && Gravite_Mineur() == 0){
-            console.log("sir ltbib");
-        }
-        else if( Gravite_Majeur() >= 1 || Gravite_Mineur() >= 1 || malad_calcul() >=1){
-            console.log("appeler 141");
-        }
-    }
-}
-/////////////////////Situation numero quatre/////////////////////////
-function situation4() {
-    if( malad_calcul() ===0 && Gravite_Majeur() === 0 && Gravite_Mineur() ==0){
-        console.log("Votre situation ne relève probablement pas du Covid-19");
-    }
-}

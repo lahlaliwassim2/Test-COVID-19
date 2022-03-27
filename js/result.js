@@ -1,18 +1,7 @@
 let localstorage = window.localStorage
 let Questions = JSON.parse(localstorage.getItem('Questions'));
 console.log(Questions)
-function situation2() {
-    if (Questions.Q1 == 'oui' && Questions.Q3 == 'oui') {
-        if (malad_calcul() == 0) {
-            console.log('tasl b tabib aw sir 3ndo ');
-            document.getElementById("appelMedecin").classList.remove('d-none');
-        } else if (Gravite_Majeur() == 0 || Gravite_Mineur() == 1) {
-            console.log('tasl btabib aw zyara');
-        } else if (Gravite_Mineur() > 1) {
-            console.log('tasl b 141');
-        }
-    }
-}
+// -------------------function for calcul maladie----------------------------
 function malad_calcul() {
     let mal = 0;
     for (let i = 14; i < 23; i++) {
@@ -53,7 +42,7 @@ function Gravite_Majeur() {
     return GMj;
 }
 
-
+///////////////////////////Situation numero un/////////////////////////////////
 function situation1() {
     if (Questions.Q1 == "oui" || Questions.Q3 == "oui"
         && Questions.Q5 == "oui" || Questions.Q3 == "oui"
@@ -74,9 +63,39 @@ function situation1() {
         }
     }
 }
+///////////////////////////Situation numero deux/////////////////////////////////
+function situation2() {
+    if (Questions.Q1 == 'oui' && Questions.Q3 == 'oui') {
+        if (malad_calcul() == 0) {
+            console.log('tasl b tabib aw sir 3ndo ');
+            document.getElementById("appelMedecin").classList.remove('d-none');
+        } else if (Gravite_Majeur() == 0 || Gravite_Mineur() == 1) {
+            console.log('tasl btabib aw zyara');
+        } else if (Gravite_Mineur() > 1) {
+            console.log('tasl b 141');
+        }
+    }
+}
+///////////////////////////Situation numero trois/////////////////////////////////
+function situation3() {
+    if (Questions.Q1 == "oui" || Questions.Q3 == "oui" || Questions.Q5 == "oui" || Questions.Q4 == "oui") {
+        if (Gravite_Majeur() == 0 && Gravite_Mineur() == 0) {
+            console.log("sir ltbib");
+        }
+        else if (Gravite_Majeur() >= 1 || Gravite_Mineur() >= 1 || malad_calcul() >= 1) {
+            console.log("appeler 141");
+        }
+    }
+}
+/////////////////////Situation numero quatre/////////////////////////
+function situation4() {
+    if (malad_calcul() === 0 && Gravite_Majeur() === 0 && Gravite_Mineur() == 0) {
+        console.log("Votre situation ne relève probablement pas du Covid-19");
+    }
+}
 situation1();
 situation2();
-    // // situation3();
-    // // situation4();
+situation3();
+situation4();
     // console.log("gravite mineur " + Gravite_Mineur());
     // console.log("gravite majeur " + Gravite_Majeur());
