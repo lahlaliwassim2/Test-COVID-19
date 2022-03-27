@@ -49,30 +49,29 @@ function situation1() {
         && Questions.Q6 == "oui") {
         if (malad_calcul() == 0) {
             if (Questions.Q11 < 50) {
-                console.log("b9a fdark otasl b tbib");
+                document.getElementById("resteMaison").classList.remove("d-none");
             }
             else if (Questions.Q11 >= 50 && Questions.Q11 <= 69) {
-                console.log("tasl b tbib osir 3ndo");
+                document.getElementById("appelMedecin").classList.remove("d-none");
             }
         }
         else if (malad_calcul() >= 1 && Gravite_Majeur() == 0 && Gravite_Mineur() == 0 || Gravite_Mineur() == 1) {
-            console.log("tasl b tbib osir 3ndo");
+            document.getElementById("appelMedecin").classList.remove("d-none");
         }
         else if (Gravite_Majeur() >= 1 || Gravite_Mineur() >= 2) {
-            console.log("tasl b 141");
+            document.getElementById("appel141").classList.remove("d-none");
         }
     }
 }
 ///////////////////////////Situation numero deux/////////////////////////////////
 function situation2() {
     if (Questions.Q1 == 'oui' && Questions.Q3 == 'oui') {
-        if (malad_calcul() == 0) {
-            console.log('tasl b tabib aw sir 3ndo ');
-            document.getElementById("appelMedecin").classList.remove('d-none');
+        if (malad_calcul() == 0 ) {
+            document.getElementById("appelMedecin").classList.remove("d-none");
         } else if (Gravite_Majeur() == 0 || Gravite_Mineur() == 1) {
-            console.log('tasl btabib aw zyara');
+            document.getElementById("appelMedecin").classList.remove("d-none");
         } else if (Gravite_Mineur() > 1) {
-            console.log('tasl b 141');
+            document.getElementById("appel141").classlist.remove("d-none");
         }
     }
 }
