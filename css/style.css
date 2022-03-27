@@ -174,3 +174,16 @@ nav .nav-link:hover {
 .textColor{
     color: #1078AD !important;
 }
+.circleSelct {
+    background-color:#96C5DC;
+    height: 35px;
+    width: 35px;
+    margin-top: -10px;
+}
+.circleSelc{
+    background-color:yellow;
+    height: 20px;
+    width: 20px;
+    margin: auto !important;
+    margin-top: 7px !important;
+}
