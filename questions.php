@@ -13,7 +13,9 @@
                 <p>Informations</p>
             </div>
             <div class="Ques d-flex flex-column align-items-center">
-                <span class=" circle rounded-circle"></span>
+            <div class="circleSelct rounded-circle">
+                    <div class="circle rounded-circle circleSelc"></div>
+                </div>
                 <p>Questionnaire</p>
             </div>
             <div class="Res d-flex flex-column align-items-center">
@@ -30,7 +32,7 @@
         </div>
 
         <div class="Questions pt-5 bg-light">
-            <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false">
+            <div id="carouselExampleControls" class="carousel slide h-75" data-bs-interval="false" data-bs-touch="false">
                 <div class="carousel-inner">
 
                     <div class="Q-1 carousel-item active px-5 py-3">
@@ -54,7 +56,7 @@
                         <h4 class="text-center">Quelle est votre température corporelle ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="34" max="42" placeholder="34-42">
+                                <input id="inputcheck"  class="inputAgePoids p-2" type="number" min="34" max="42" placeholder="34-42">
                                 <div class="ansKg p-2 bg-header">degrés</div>
                             </div>
                         </div>
@@ -393,15 +395,15 @@
                     <button class="btn-next btn btn-primary" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                         Suivant
                     </button>
-                    
-                    <a class="d-none btn-ter btn btn-primary" href="">Terminer le test</a>
+
+                    <button class="d-none btn-ter btn btn-primary">Terminer le test</button>
                 </div>
 
             </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>

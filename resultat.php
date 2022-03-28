@@ -1,37 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php include './components/head.php'; ?>
+<?php include 'components/head.php'; ?>
 
 <body>
 
-    <?php include './components/header.php'; ?>
+    <?php include 'components/header.php'; ?>
     <main class="container w-75">
         <div class="stiper d-flex justify-content-around my-3">
             <div class="Info d-flex flex-column align-items-center">
-            <div class="circleSelct rounded-circle">
-                    <div class="circle rounded-circle circleSelc"></div>
-                </div>
+                <span class=" circle rounded-circle"></span>
                 <p>Informations</p>
             </div>
             <div class="Ques d-flex flex-column align-items-center">
-                <span class=" circle rounded-circle"></span>
+                <span class="circle rounded-circle"></span>
                 <p>Questionnaire</p>
             </div>
             <div class="Res d-flex flex-column align-items-center">
-                <span class=" circle rounded-circle"></span>
+                <div class="circleSelct rounded-circle">
+                    <div class="circle rounded-circle circleSelc"></div>
+                </div>
                 <p>Résulats</p>
             </div>
         </div>
         <div class="information-area p-5 ">
             <div class="info-content d-flex align-items-center flex-column">
-                <h5 class="text-primary fw-bold ">Préambule</h5>
-                <p class="mb-5">L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant l’épidémie de Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus mis à disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas garantis.</p>
-                <p>Cette application ne substitue pas votre médecin qui est plus apte à vous donner plus de précision.
-                    Les informations de cette application est le premier niveau de la détection des cas possibles du COVID-19.</p>
+                <h5 class="text-primary fw-bold">Resultat de Test</h5>
+                <p class="m-5 display-1 text-danger d-none" id="appel141"> APPELER 141 </p>
+                <p class="m-5 text-center display-6 textColor d-none" id="appelMedecin">Téléconsultation ou médecin généraliste ou visite à domicile</p>
+                <p class="m-4 text-center h3 textColor d-none" id="resteMaison"> nous vous conseillons de rester à votre domicile et
+                    de contacter votre médecin en cas d’apparition de nouveaux symptômes. Vous pourrez
+                    aussi utiliser à nouveau l’application pour réévaluer vos symptômes</p>
+                <p class="m-5 text-center display-6 text-success d-none" id="pasCovid">Votre situation ne relève probablement pas du Covid-19</p>
+                <hr class="w-100">
+                <p class="textColor h4">Restez chez vous au maximum en attendant que les symptômes disparaissent.
+                    Prenez votre température deux fois par jour. Rappel des mesures d’hygiène.
+                </p>
             </div>
         </div>
         <div class="d-flex align-items-center flex-column gap-3  mt-4">
-            <a href="questions.php"> <button class="btn btn-primary btn-lg border border-secondary border-3 ">Démarrer Le Test</button></a>
+            <a href="questions.php"> <button class="btn btn-primary btn-lg border border-secondary border-3 ">Recommencer le test</button></a>
             <img src="assets/img/ministre.svg" alt="">
         </div>
         <div class="footer-section row mt-5   ">
@@ -60,8 +67,7 @@
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
-    <script src="./js/main.js"></script>
-    <script src="test.js"></script>
+    <script src="./js/result.js"></script>
 </body>
 
 </html>
