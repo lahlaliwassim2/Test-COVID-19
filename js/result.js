@@ -1,6 +1,6 @@
 let localstorage = window.localStorage
 let Questions = JSON.parse(localstorage.getItem('Questions'));
-console.log(Questions)
+console.log(localstorage)
 // -------------------function for calcul maladie----------------------------
 function malad_calcul() {
     let mal = 0;
