@@ -91,12 +91,21 @@ checked.forEach(btn => {
 
 // ----------------------------inputs -----------------------------------
 let inputs = document.querySelectorAll(".inputAgePoids");
+// let inputcheck = document.getElementById('inputcheck').addEventListener('keydown', function(){
+//     if(inputcheck.value.length >= 3){
+//             btnNext.setAttribute("disabled");
+//     }
+// })
+
 inputs.forEach(input => {
-    input.addEventListener("mouseout",()=>{
+    input.addEventListener("input",()=>{
         if(input.value != ""){
             reponse = input.value;
             btnNext.removeAttribute("disabled","");
         }
+
+        
+       
     })
 });
 let btn_ter = document.querySelector(".btn-ter");
@@ -104,6 +113,7 @@ btn_ter.addEventListener("click", function () {
     let localstorage = window.localStorage;
     localstorage.setItem('Questions', JSON.stringify(Questions))
     window.location.href = "./resultat.php";
+    console.log(typeOf(localstorage));
 
 
 })
