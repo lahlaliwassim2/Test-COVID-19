@@ -60,6 +60,31 @@ Les informations de cette application est le premier niveau de la détection des
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
     </script>
     <script src="./js/main.js"></script>
+    <script src="test.js"></script>
 </body>
 
 </html>
+
+<!-- 3la r jabha chi wahd o sadarha f taxi ??KHONA TAB3NNA MN LOR
+ARE U SURE 
+turn 
+100% he was
+hi db 7bs wa9ila bach mayb3dch
+mohim dak lblan ta3 romanciya ...
+jabha 9da biha o sadarha
+majbnhach ? nkono 7na mooka 4.0
+
+??
+nsat tel f tonobilto
+kant khdama blowjob how did u jumb to this
+just assuming 
+m not sure give me time
+mhm they gonna meet tomorrow f rabat 
+she's good 
+7/1O
+HER PHONE SOOOOOOOOOOO SHIT
+tatsift wa7d l vid diyalha tatcht7 f chi 3rs o wa7d jlaba n3amas sidi o lawyyawa7d lkhr9a
+mol taxi ma gbila o howa darb 3lina
+looking at her 
+cc cc wa zmr 
+position pic -->
