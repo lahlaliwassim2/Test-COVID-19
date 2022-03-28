@@ -9,7 +9,7 @@
         <div class="error_area d-flex mt-5 flex-column align-items-center">
             <img class="error404 w-50" src="assets/img/error404.svg" alt="" />
             <h3 class="text-primary mt-4 mb-2">Tu Es Perdu</h3>
-            <a href="index.html">
+            <a href="index.php">
                 <button class="btn mb-3 text-white bg-primary">
                     Retourner à l'accueil
                 </button></a>
@@ -18,10 +18,10 @@
         <div class="row mt-3 d-flex justify-content-center">
             <div class="col-12 col-md-2 mt-3 d-flex justify-content-center">
                 <ul>
-                    <a class="text-black fw-bold text-decoration-none list-unstyled" href="index.html">
+                    <a class="text-black fw-bold text-decoration-none list-unstyled" href="index.php">
                         <li>Accueil</li>
                     </a>
-                    <a class="text-black fw-bold text-decoration-none list-unstyled" href="">
+                    <a class="text-black fw-bold text-decoration-none list-unstyled" href="conseils.php">
                         <li>Conseil</li>
                     </a>
                 </ul>
