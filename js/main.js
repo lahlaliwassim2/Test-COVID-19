@@ -179,6 +179,7 @@ function situation1(){
 
 let btn_ter = document.querySelector(".btn-ter");
 btn_ter.addEventListener("click",()=>{
+    
     situation1();
     situation2();
     situation3();
