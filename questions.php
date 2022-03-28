@@ -13,7 +13,9 @@
                 <p>Informations</p>
             </div>
             <div class="Ques d-flex flex-column align-items-center">
-                <span class=" circle rounded-circle"></span>
+            <div class="circleSelct rounded-circle">
+                    <div class="circle rounded-circle circleSelc"></div>
+                </div>
                 <p>Questionnaire</p>
             </div>
             <div class="Res d-flex flex-column align-items-center">
