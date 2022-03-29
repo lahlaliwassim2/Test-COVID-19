@@ -1,5 +1,6 @@
 let localstorage = window.localStorage
 let Questions = JSON.parse(localstorage.getItem('Questions')); 
+
 // -------------------function for calcul maladie----------------------------
 function malad_calcul() {
     let mal = 0;
@@ -39,12 +40,13 @@ function Gravite_Majeur() {
         GMj++;
     }
     return GMj;
+    
 }
 
 ///////////////////////////Situation numero un/////////////////////////////////
 function situation1() {
-    if (Questions.Q1 == "oui" || Questions.Q3 == "oui"
-    && Questions.Q5 == "oui" || Questions.Q3 == "oui"
+    if ((Questions.Q1 == "oui" || Questions.Q3 == "oui")
+    && (Questions.Q5 == "oui" || Questions.Q3 == "oui")
         && Questions.Q6 == "oui") {
         if (malad_calcul() == 0) {
             if (Questions.Q11 < 50) {
@@ -85,6 +87,12 @@ function situation3() {
             
         }
         else if (Gravite_Majeur() >= 1 || Gravite_Mineur() >= 1 || malad_calcul() >= 1) {
+            if(malad_calcul()==0){
+                document.getElementById("appelMedecin").classList.remove("d-none");
+            }
+            else{
+            document.getElementById("appel141").classList.remove('d-none');
+        }}
             if (malad_calcul() == 0) {
                 document.getElementById("appelMedecin").classList.remove("d-none");
             } else {
@@ -93,7 +101,7 @@ function situation3() {
 
         }
     }
-}
+
 /////////////////////Situation numero quatre/////////////////////////
 function situation4() {
     if (malad_calcul() === 0 && Gravite_Majeur() === 0 && Gravite_Mineur() == 0) {
