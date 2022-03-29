@@ -227,7 +227,7 @@
                         <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids inputCm p-2" type="number" min="80" max="250" placeholder="80-250">
+                                <input class="inputAgePoids inputCm p-2" type="number" min="40" max="250" placeholder="80-250">
                                 <div class="ansKg p-2 bg-header">cm</div>
                             </div>
                             <div class="errorCm text-danger position-absolute "></div>

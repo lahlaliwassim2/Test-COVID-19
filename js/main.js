@@ -91,8 +91,7 @@ checked.forEach(btn => {
 });
 
 function validTemp(temp){
-    let regexTemperature = /^(?:2[5-9]|[2-6][0-2]|[1-1][0-3]{2,2}|320)$/;
-    if(regexTemperature.test(temp)){
+    if(temp >= 34 && temp <=42){
         reponse = temp;
         btnNext.removeAttribute("disabled","");
         document.querySelector(".errorTemp").innerHTML = "";
@@ -103,23 +102,20 @@ function validTemp(temp){
     }
 }
 
-
 function validAge(age){
-    let regexAge = /^(?:1[5-9]|[2-9][0-2]|[1-1][0-3]{2,2}|320)$/;
-    if(regexAge.test(age)){
+    if(age >= 15 && age <=120){
         reponse =  age;
         btnNext.removeAttribute("disabled","");
         document.querySelector(".errorAge").innerHTML = "";
     }
     else{
-        document.querySelector(".errorAge").innerHTML = "entrer votre vrais age";
+        document.querySelector(".errorAge").innerHTML = "entrer votre vrais temperature ";
         btnNext.setAttribute("disabled","");
     }
 }
 
 function validPoid(poid){
-    let regexPoid = /^(?:3[0-9]|[4-9][0-9]|[1-3][0-9]{2,3}|320)$/;
-    if(regexPoid.test(poid)){
+    if(poid >= 20 && poid <=300){
         reponse =  poid;
         btnNext.removeAttribute("disabled","");
         document.querySelector(".errorPoid").innerHTML = "";
@@ -131,8 +127,7 @@ function validPoid(poid){
 }
 
 function validCm(cm){
-    let regexTaille = /^(?:8[0-9]|[9-9][0-9]|[1-3][0-9]{2,4}|120)$/;
-    if(regexTaille.test(cm)){
+    if(cm >= 40 && cm<=250){
         reponse =  cm;
         btnNext.removeAttribute("disabled","");
         document.querySelector(".errorCm").innerHTML = "";
@@ -146,20 +141,20 @@ function validCm(cm){
 
 // ----------------------------inputs -----------------------------------
 let inputs = document.querySelectorAll(".inputAgePoids");
-
+// let inputcheck = document.getElementById('inputcheck').addEventListener('keydown', function(){
+//     if(inputcheck.value.length >= 3){
+//             btnNext.setAttribute("disabled");
+//     }
+// })
 
 inputs.forEach(input => {
     input.addEventListener("mouseout",()=>{
-
-        
-        
-        
-        
 
         const inputTemp = document.querySelector(".temp");
         const inputAge = document.querySelector(".inputAns")
         const inputPoid = document.querySelector(".inputPoid");
         const inputCm = document.querySelector(".inputCm");
+
         if(nbrQues == 2){
             validTemp(inputTemp.value);
         }
@@ -172,10 +167,6 @@ inputs.forEach(input => {
         else if(nbrQues == 13){
             validCm(inputCm.value);
         }
-        
-        
-        
-
     })
 });
 let btn_ter = document.querySelector(".btn-ter");
