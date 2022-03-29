@@ -43,10 +43,13 @@ function Gravite_Majeur() {
 
 ///////////////////////////Situation numero un/////////////////////////////////
 function situation1() {
-    if ((Questions.Q1 === "oui" || Questions.Q3 === "oui") && (Questions.Q5 === "oui" || Questions.Q3 === "oui") && Questions.Q6 === "oui") {
+    if (Questions.Q1 == "oui" || Questions.Q3 == "oui"
+    && Questions.Q5 == "oui" || Questions.Q3 == "oui"
+        && Questions.Q6 == "oui") {
         if (malad_calcul() == 0) {
             if (Questions.Q11 < 50) {
                 document.getElementById("resteMaison").classList.remove("d-none");
+                console.log("jsghjddhlkqhdslqdhsdjsdkljsshdsklqkh");
             }
             else if (Questions.Q11 >= 50 && Questions.Q11 <= 69) {
                 document.getElementById("appelMedecin").classList.remove("d-none");
@@ -95,7 +98,6 @@ function situation3() {
 function situation4() {
     if (malad_calcul() === 0 && Gravite_Majeur() === 0 && Gravite_Mineur() == 0) {
         document.getElementById('pasCovid').classList.remove('d-none');
-
     }
 }
 situation1();

@@ -5,7 +5,7 @@
 <body>
 
     <?php include 'components/header.php'; ?>
-    <main class="container w-75">
+    <main class="container">
         <div class="stiper d-flex justify-content-around my-3">
             <div class="Info d-flex flex-column align-items-center">
                 <span class=" circle rounded-circle"></span>
