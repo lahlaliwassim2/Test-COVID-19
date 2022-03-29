@@ -56,11 +56,7 @@
                         <h4 class="text-center">Quelle est votre température corporelle ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-<<<<<<< HEAD
                                 <input class="inputAgePoids temp p-2" type="number" min="34" max="42" placeholder="34-42">
-=======
-                                <input id="inputcheck"  class="inputAgePoids p-2" type="number" min="34" max="42" placeholder="34-42">
->>>>>>> main
                                 <div class="ansKg p-2 bg-header">degrés</div>
                                 
                             </div>
