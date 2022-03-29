@@ -91,7 +91,7 @@ checked.forEach(btn => {
 });
 
 function validTemp(temp){
-    let regexTemperature = /^(?:3[4-9]|[4-9][0-2]{2,2}|42)$/;
+    let regexTemperature = /^(?:2[5-9]|[2-6][0-2]|[1-1][0-3]{2,2}|320)$/;
     if(regexTemperature.test(temp)){
         reponse = temp;
         btnNext.removeAttribute("disabled","");
@@ -103,18 +103,6 @@ function validTemp(temp){
     }
 }
 
-function validAge(age){
-    let regexAge = /^(?:2[0-9]|[3-5][0-9]|120)$/;
-    if(regexAge.test(age)){
-        reponse =  age;
-        btnNext.removeAttribute("disabled","");
-        document.querySelector(".errorAge").innerHTML = "";
-    }
-    else{
-        document.querySelector(".errorAge").innerHTML = "entrer votre vrais temperature ";
-        btnNext.setAttribute("disabled","");
-    }
-}
 
 function validAge(age){
     let regexAge = /^(?:1[5-9]|[2-9][0-2]|[1-1][0-3]{2,2}|320)$/;
@@ -158,11 +146,7 @@ function validCm(cm){
 
 // ----------------------------inputs -----------------------------------
 let inputs = document.querySelectorAll(".inputAgePoids");
-// let inputcheck = document.getElementById('inputcheck').addEventListener('keydown', function(){
-//     if(inputcheck.value.length >= 3){
-//             btnNext.setAttribute("disabled");
-//     }
-// })
+
 
 inputs.forEach(input => {
     input.addEventListener("mouseout",()=>{
