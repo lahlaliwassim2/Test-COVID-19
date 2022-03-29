@@ -56,9 +56,11 @@
                         <h4 class="text-center">Quelle est votre température corporelle ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="34" max="42" placeholder="34-42">
+                                <input class="inputAgePoids temp p-2" type="number" min="34" max="42" placeholder="34-42">
                                 <div class="ansKg p-2 bg-header">degrés</div>
+                                
                             </div>
+                            <div class="errorTemp text-danger position-absolute "></div>
                         </div>
                     </div>
 
@@ -204,9 +206,10 @@
                         <h4 class="text-center">Quel est votre âge ? Ceci, afin de calculer un facteur de risque spécifique.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="15" max="120" placeholder="15-120">
+                                <input  class="inputAgePoids p-2 inputAns" type="number" min="15" max="120" placeholder="15-120">
                                 <div class="ansKg p-2 bg-header">ans</div>
                             </div>
+                            <div class="errorAge text-danger position-absolute "></div>
                         </div>
                     </div>
 
@@ -214,18 +217,20 @@
                         <h4 class="text-center">Quel est votre poids ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="20" max="300" placeholder="20-300">
+                                <input class="inputAgePoids inputPoid p-2" type="number" min="20" max="300" placeholder="20-300">
                                 <div class="ansKg p-2 bg-header">Kg</div>
                             </div>
+                            <div class="errorPoid text-danger position-absolute "></div>
                         </div>
                     </div>
                     <div class="Q-13 carousel-item px-5 py-3">
                         <h4 class="text-center">Quelle est votre taille ? Afin de calculer l’indice de masse corporelle qui est un facteur influençant le risque de complications de l’infection.</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
-                                <input class="inputAgePoids p-2" type="number" min="80" max="250" placeholder="80-250">
+                                <input class="inputAgePoids inputCm p-2" type="number" min="80" max="250" placeholder="80-250">
                                 <div class="ansKg p-2 bg-header">cm</div>
                             </div>
+                            <div class="errorCm text-danger position-absolute "></div>
                         </div>
                     </div>
 

@@ -5,6 +5,7 @@ let nbrQues = 1;
 const btnNext = document.querySelector(".btn-next");
 const btnPrev = document.querySelector(".btn-prv");
 
+
 if(nbrQues == 1){
     document.querySelector(".btn-prv").style.visibility = "hidden";
 }
@@ -20,12 +21,13 @@ btnNext.addEventListener("click",()=>{
         document.querySelector(".progress-bar").style.width = prog+"%";
         document.querySelector(".nbr-Q").innerHTML = nbrQues +"/23";
         document.querySelector(".btn-prv").style.visibility = "visible";
+       
 
         // -------push reponse in object----------
         Questions["Q"+Q] = reponse;
         Q++;
         reponse = "";
-        if(reponse == ""){
+        if(reponse == "" ){
             btnNext.setAttribute("disabled","");
         }
 
@@ -88,15 +90,102 @@ checked.forEach(btn => {
     })
 });
 
+function validTemp(temp){
+    let regexTemperature = /^(?:3[4-9]|[4-9][0-2]{2,2}|42)$/;
+    if(regexTemperature.test(temp)){
+        reponse = temp;
+        btnNext.removeAttribute("disabled","");
+        document.querySelector(".errorTemp").innerHTML = "";
+    }
+    else{
+        document.querySelector(".errorTemp").innerHTML = "entrer votre vrais temperature ";
+        btnNext.setAttribute("disabled","");
+    }
+}
+
+function validAge(age){
+    let regexAge = /^(?:2[0-9]|[3-5][0-9]|120)$/;
+    if(regexAge.test(age)){
+        reponse =  age;
+        btnNext.removeAttribute("disabled","");
+        document.querySelector(".errorAge").innerHTML = "";
+    }
+    else{
+        document.querySelector(".errorAge").innerHTML = "entrer votre vrais temperature ";
+        btnNext.setAttribute("disabled","");
+    }
+}
+
+function validAge(age){
+    let regexAge = /^(?:1[5-9]|[2-9][0-2]|[1-1][0-3]{2,2}|320)$/;
+    if(regexAge.test(age)){
+        reponse =  age;
+        btnNext.removeAttribute("disabled","");
+        document.querySelector(".errorAge").innerHTML = "";
+    }
+    else{
+        document.querySelector(".errorAge").innerHTML = "entrer votre vrais age";
+        btnNext.setAttribute("disabled","");
+    }
+}
+
+function validPoid(poid){
+    let regexPoid = /^(?:3[0-9]|[4-9][0-9]|[1-3][0-9]{2,3}|320)$/;
+    if(regexPoid.test(poid)){
+        reponse =  poid;
+        btnNext.removeAttribute("disabled","");
+        document.querySelector(".errorPoid").innerHTML = "";
+    }
+    else{
+        document.querySelector(".errorPoid").innerHTML = "entrer votre vrais Poid ";
+        btnNext.setAttribute("disabled","");
+    }
+}
+
+function validCm(cm){
+    let regexTaille = /^(?:8[0-9]|[9-9][0-9]|[1-3][0-9]{2,4}|120)$/;
+    if(regexTaille.test(cm)){
+        reponse =  cm;
+        btnNext.removeAttribute("disabled","");
+        document.querySelector(".errorCm").innerHTML = "";
+    }
+    else{
+        document.querySelector(".errorCm").innerHTML = "entrer votre vrais taille ";
+        btnNext.setAttribute("disabled","");
+    }
+}
+
 
 // ----------------------------inputs -----------------------------------
 let inputs = document.querySelectorAll(".inputAgePoids");
 inputs.forEach(input => {
     input.addEventListener("mouseout",()=>{
-        if(input.value != ""){
-            reponse = input.value;
-            btnNext.removeAttribute("disabled","");
+
+        
+        
+        
+        
+
+        const inputTemp = document.querySelector(".temp");
+        const inputAge = document.querySelector(".inputAns")
+        const inputPoid = document.querySelector(".inputPoid");
+        const inputCm = document.querySelector(".inputCm");
+        if(nbrQues == 2){
+            validTemp(inputTemp.value);
         }
+        else if (nbrQues == 11){
+            validAge(inputAge.value);
+        }
+        else if(nbrQues == 12){
+            validPoid(inputPoid.value);
+        }
+        else if(nbrQues == 13){
+            validCm(inputCm.value);
+        }
+        
+        
+        
+
     })
 });
 let btn_ter = document.querySelector(".btn-ter");
@@ -107,3 +196,5 @@ btn_ter.addEventListener("click", function () {
 
 
 })
+///////////////////////////FONCTION DE VALIDATION DE INPUT D AGE
+
