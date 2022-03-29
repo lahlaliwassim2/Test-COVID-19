@@ -5,7 +5,7 @@
 <body>
 
     <?php include './components/header.php'; ?>
-    <main class="container w-75">
+    <main class="container">
 
         <div class="stiper d-flex justify-content-around my-3">
             <div class="Info d-flex flex-column align-items-center">
@@ -56,7 +56,11 @@
                         <h4 class="text-center">Quelle est votre température corporelle ?</h4>
                         <div class="reponse d-flex justify-content-center mt-5">
                             <div class="form-check d-flex justify-content-center w-100 mt-5">
+<<<<<<< HEAD
                                 <input class="inputAgePoids temp p-2" type="number" min="34" max="42" placeholder="34-42">
+=======
+                                <input id="inputcheck"  class="inputAgePoids p-2" type="number" min="34" max="42" placeholder="34-42">
+>>>>>>> main
                                 <div class="ansKg p-2 bg-header">degrés</div>
                                 
                             </div>
@@ -386,21 +390,7 @@
                         </div>
                     </div>
 
-                    <div class="Q-23 carousel-item px-5 py-3">
-                        <h4 class="text-center">Pensez-vous avoir ou avoir eu de la fièvre ces 10 derniers jours (frissons, sueurs) ?</h4>
-                        <div class="reponse d-flex justify-content-center mt-5">
-                            <div class="form-check d-flex gap-5">
-                                <div class="check oui d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-check"></i>
-                                    <span>oui</span>
-                                </div>
-                                <div class="check non d-flex flex-column gap-2 align-items-center px-4 py-3">
-                                    <i class="fas fa-times"></i>
-                                    <span>non</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
 
                 </div>
 
